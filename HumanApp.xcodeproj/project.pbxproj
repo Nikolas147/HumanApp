@@ -7,23 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B052D1D238319DC00005F83 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B052D1C238319DC00005F83 /* TabBarController.swift */; };
+		5B052D1F2383EFD600005F83 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B052D1E2383EFD600005F83 /* DetailViewController.swift */; };
+		5B052D212383F15A00005F83 /* ModifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B052D202383F15A00005F83 /* ModifyViewController.swift */; };
+		5B052D3523842EDB00005F83 /* StandardTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B052D3323842EDB00005F83 /* StandardTableCell.swift */; };
+		5B052D3623842EDB00005F83 /* StandardTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B052D3423842EDB00005F83 /* StandardTableCell.xib */; };
+		5B052D3923842EF100005F83 /* AttributeTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B052D3723842EF100005F83 /* AttributeTableCell.swift */; };
+		5B052D3A23842EF100005F83 /* AttributeTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B052D3823842EF100005F83 /* AttributeTableCell.xib */; };
+		5B052D3E238439A000005F83 /* Human.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B052D3D2384399F00005F83 /* Human.swift */; };
+		5B052D4A2385BE7600005F83 /* FileHuman.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B052D492385BE7600005F83 /* FileHuman.swift */; };
+		5B052D4C2385D42000005F83 /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B052D4B2385D42000005F83 /* PreviewViewController.swift */; };
+		5B052D4E2387DB9700005F83 /* DeleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B052D4D2387DB9700005F83 /* DeleteViewController.swift */; };
+		5B150EF6238AC20C0043BA2E /* Extension+Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B150EF5238AC20C0043BA2E /* Extension+Dictionary.swift */; };
 		5BB17B45238295F400F2C4FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB17B44238295F400F2C4FA /* AppDelegate.swift */; };
 		5BB17B47238295F400F2C4FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB17B46238295F400F2C4FA /* SceneDelegate.swift */; };
-		5BB17B49238295F400F2C4FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB17B48238295F400F2C4FA /* ViewController.swift */; };
+		5BB17B49238295F400F2C4FA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB17B48238295F400F2C4FA /* LoginViewController.swift */; };
 		5BB17B4C238295F400F2C4FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BB17B4A238295F400F2C4FA /* Main.storyboard */; };
 		5BB17B4E238295F700F2C4FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BB17B4D238295F700F2C4FA /* Assets.xcassets */; };
 		5BB17B51238295F700F2C4FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BB17B4F238295F700F2C4FA /* LaunchScreen.storyboard */; };
+		5BB17B5B2382E7BA00F2C4FA /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB17B5A2382E7BA00F2C4FA /* CustomTextField.swift */; };
+		5BD642B92388006000E15563 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD642B82388006000E15563 /* EditViewController.swift */; };
+		5BD642BB238A909600E15563 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD642BA238A909600E15563 /* AboutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5B052D1C238319DC00005F83 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		5B052D1E2383EFD600005F83 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		5B052D202383F15A00005F83 /* ModifyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifyViewController.swift; sourceTree = "<group>"; };
+		5B052D3323842EDB00005F83 /* StandardTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardTableCell.swift; sourceTree = "<group>"; };
+		5B052D3423842EDB00005F83 /* StandardTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StandardTableCell.xib; sourceTree = "<group>"; };
+		5B052D3723842EF100005F83 /* AttributeTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttributeTableCell.swift; sourceTree = "<group>"; };
+		5B052D3823842EF100005F83 /* AttributeTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AttributeTableCell.xib; sourceTree = "<group>"; };
+		5B052D3D2384399F00005F83 /* Human.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Human.swift; sourceTree = "<group>"; };
+		5B052D492385BE7600005F83 /* FileHuman.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileHuman.swift; sourceTree = "<group>"; };
+		5B052D4B2385D42000005F83 /* PreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
+		5B052D4D2387DB9700005F83 /* DeleteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteViewController.swift; sourceTree = "<group>"; };
+		5B150EF5238AC20C0043BA2E /* Extension+Dictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Dictionary.swift"; sourceTree = "<group>"; };
 		5BB17B41238295F400F2C4FA /* HumanApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HumanApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BB17B44238295F400F2C4FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BB17B46238295F400F2C4FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5BB17B48238295F400F2C4FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5BB17B48238295F400F2C4FA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		5BB17B4B238295F400F2C4FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5BB17B4D238295F700F2C4FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BB17B50238295F700F2C4FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5BB17B52238295F700F2C4FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BB17B5A2382E7BA00F2C4FA /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		5BD642B82388006000E15563 /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		5BD642BA238A909600E15563 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +67,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B052D3223842C5300005F83 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				5B052D3323842EDB00005F83 /* StandardTableCell.swift */,
+				5B052D3423842EDB00005F83 /* StandardTableCell.xib */,
+				5B052D3723842EF100005F83 /* AttributeTableCell.swift */,
+				5B052D3823842EF100005F83 /* AttributeTableCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		5B150EF4238AC1BA0043BA2E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5B150EF5238AC20C0043BA2E /* Extension+Dictionary.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		5BB17B38238295F400F2C4FA = {
 			isa = PBXGroup;
 			children = (
@@ -58,13 +107,49 @@
 			children = (
 				5BB17B44238295F400F2C4FA /* AppDelegate.swift */,
 				5BB17B46238295F400F2C4FA /* SceneDelegate.swift */,
-				5BB17B48238295F400F2C4FA /* ViewController.swift */,
+				5BB17B5D2382E7C800F2C4FA /* Views */,
+				5BB17B602382FA5B00F2C4FA /* Controllers */,
+				5BB17B632382FA8700F2C4FA /* Models */,
+				5B150EF4238AC1BA0043BA2E /* Extensions */,
 				5BB17B4A238295F400F2C4FA /* Main.storyboard */,
 				5BB17B4D238295F700F2C4FA /* Assets.xcassets */,
 				5BB17B4F238295F700F2C4FA /* LaunchScreen.storyboard */,
 				5BB17B52238295F700F2C4FA /* Info.plist */,
 			);
 			path = HumanApp;
+			sourceTree = "<group>";
+		};
+		5BB17B5D2382E7C800F2C4FA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5BB17B5A2382E7BA00F2C4FA /* CustomTextField.swift */,
+				5B052D3223842C5300005F83 /* Cell */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5BB17B602382FA5B00F2C4FA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5BB17B48238295F400F2C4FA /* LoginViewController.swift */,
+				5B052D1C238319DC00005F83 /* TabBarController.swift */,
+				5B052D4B2385D42000005F83 /* PreviewViewController.swift */,
+				5B052D202383F15A00005F83 /* ModifyViewController.swift */,
+				5B052D1E2383EFD600005F83 /* DetailViewController.swift */,
+				5B052D4D2387DB9700005F83 /* DeleteViewController.swift */,
+				5BD642B82388006000E15563 /* EditViewController.swift */,
+				5BD642BA238A909600E15563 /* AboutViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5BB17B632382FA8700F2C4FA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5B052D3D2384399F00005F83 /* Human.swift */,
+				5B052D492385BE7600005F83 /* FileHuman.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +211,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BB17B51238295F700F2C4FA /* LaunchScreen.storyboard in Resources */,
+				5B052D3A23842EF100005F83 /* AttributeTableCell.xib in Resources */,
 				5BB17B4E238295F700F2C4FA /* Assets.xcassets in Resources */,
 				5BB17B4C238295F400F2C4FA /* Main.storyboard in Resources */,
+				5B052D3623842EDB00005F83 /* StandardTableCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +225,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BB17B49238295F400F2C4FA /* ViewController.swift in Sources */,
+				5BB17B49238295F400F2C4FA /* LoginViewController.swift in Sources */,
 				5BB17B45238295F400F2C4FA /* AppDelegate.swift in Sources */,
+				5B052D1F2383EFD600005F83 /* DetailViewController.swift in Sources */,
 				5BB17B47238295F400F2C4FA /* SceneDelegate.swift in Sources */,
+				5B052D212383F15A00005F83 /* ModifyViewController.swift in Sources */,
+				5B052D4C2385D42000005F83 /* PreviewViewController.swift in Sources */,
+				5BD642B92388006000E15563 /* EditViewController.swift in Sources */,
+				5B052D1D238319DC00005F83 /* TabBarController.swift in Sources */,
+				5BD642BB238A909600E15563 /* AboutViewController.swift in Sources */,
+				5B150EF6238AC20C0043BA2E /* Extension+Dictionary.swift in Sources */,
+				5BB17B5B2382E7BA00F2C4FA /* CustomTextField.swift in Sources */,
+				5B052D3523842EDB00005F83 /* StandardTableCell.swift in Sources */,
+				5B052D3E238439A000005F83 /* Human.swift in Sources */,
+				5B052D4A2385BE7600005F83 /* FileHuman.swift in Sources */,
+				5B052D3923842EF100005F83 /* AttributeTableCell.swift in Sources */,
+				5B052D4E2387DB9700005F83 /* DeleteViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +387,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K25RF8RKSU;
 				INFOPLIST_FILE = HumanApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +406,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K25RF8RKSU;
 				INFOPLIST_FILE = HumanApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
